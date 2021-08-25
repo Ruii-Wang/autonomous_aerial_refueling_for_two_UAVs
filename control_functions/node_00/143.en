@@ -1,0 +1,22 @@
+digraph G {
+0 [shape=box, label="0", style=filled, shape=box, height=0.3, width=0.3];
+1 [shape=box, label="1", style=filled, shape=box, height=0.3, width=0.3];
+9170 [label="SPECENGINE0_0"];
+9170 -> 9169 [style=dotted];
+9170 -> 9168 [style=filled];
+9169 [label="SPECENGINE0_1"];
+9169 -> 9168 [style=dotted];
+9169 -> 0 [style=filled];
+9168 [label="SPECFUEL0_0"];
+9168 -> 9154 [style=dotted];
+9168 -> 9153 [style=filled];
+9154 [label="SPECFUEL0_1"];
+9154 -> 9153 [style=dotted];
+9154 -> 0 [style=filled];
+9153 [label="SPECNAVIGATION0_0"];
+9153 -> 73 [style=dotted];
+9153 -> 1 [style=filled];
+73 [label="SPECNAVIGATION0_1"];
+73 -> 1 [style=dotted];
+73 -> 0 [style=filled];
+}
