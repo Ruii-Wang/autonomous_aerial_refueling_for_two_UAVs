@@ -1,0 +1,25 @@
+digraph G {
+0 [shape=box, label="0", style=filled, shape=box, height=0.3, width=0.3];
+1 [shape=box, label="1", style=filled, shape=box, height=0.3, width=0.3];
+2233 [label="AP1_0"];
+2233 -> 2232 [style=dotted];
+2233 -> 0 [style=filled];
+2232 [label="AP1_1"];
+2232 -> 0 [style=dotted];
+2232 -> 1984 [style=filled];
+1984 [label="AP1_2"];
+1984 -> 0 [style=dotted];
+1984 -> 1983 [style=filled];
+1983 [label="AP1_3"];
+1983 -> 1013 [style=dotted];
+1983 -> 0 [style=filled];
+1013 [label="SPECENGINE1_1"];
+1013 -> 438 [style=dotted];
+1013 -> 0 [style=filled];
+438 [label="SPECFUEL1_1"];
+438 -> 73 [style=dotted];
+438 -> 0 [style=filled];
+73 [label="SPECNAVIGATION1_1"];
+73 -> 1 [style=dotted];
+73 -> 0 [style=filled];
+}
