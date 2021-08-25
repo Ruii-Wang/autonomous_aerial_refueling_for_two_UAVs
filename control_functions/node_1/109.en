@@ -1,0 +1,7 @@
+digraph G {
+0 [shape=box, label="0", style=filled, shape=box, height=0.3, width=0.3];
+1 [shape=box, label="1", style=filled, shape=box, height=0.3, width=0.3];
+75 [label="RFM1"];
+75 -> 1 [style=dotted];
+75 -> 0 [style=filled];
+}
