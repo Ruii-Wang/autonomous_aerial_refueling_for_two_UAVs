@@ -1,0 +1,37 @@
+digraph G {
+0 [shape=box, label="0", style=filled, shape=box, height=0.3, width=0.3];
+1 [shape=box, label="1", style=filled, shape=box, height=0.3, width=0.3];
+6572527 [label="SPECCONTROL1_0"];
+6572527 -> 6572525 [style=dotted];
+6572527 -> 6572524 [style=filled];
+6572525 [label="SPECCONTROL1_1"];
+6572525 -> 6572524 [style=dotted];
+6572525 -> 0 [style=filled];
+6572524 [label="SPECDROPRO1_0"];
+6572524 -> 6572523 [style=dotted];
+6572524 -> 6572522 [style=filled];
+6572523 [label="SPECDROPRO1_1"];
+6572523 -> 6572522 [style=dotted];
+6572523 -> 0 [style=filled];
+6572522 [label="SPECENGINE1_0"];
+6572522 -> 6572520 [style=dotted];
+6572522 -> 6572519 [style=filled];
+6572520 [label="SPECENGINE1_1"];
+6572520 -> 6572519 [style=dotted];
+6572520 -> 0 [style=filled];
+6572519 [label="SPECFUEL1_0"];
+6572519 -> 6572512 [style=dotted];
+6572519 -> 6572513 [style=filled];
+6572512 [label="SPECFUEL1_1"];
+6572512 -> 6572509 [style=dotted];
+6572512 -> 0 [style=filled];
+6572509 [label="SPECNAVIGATION1_0"];
+6572509 -> 239 [style=dotted];
+6572509 -> 1 [style=filled];
+239 [label="SPECNAVIGATION1_1"];
+239 -> 1 [style=dotted];
+239 -> 0 [style=filled];
+6572513 [label="SPECFUEL1_1"];
+6572513 -> 0 [style=dotted];
+6572513 -> 6572509 [style=filled];
+}
